@@ -44,5 +44,11 @@ namespace Example
             this.number = number;
         }
 
+        public void ThrowException()
+        {
+            int[] exc = new int[1] { 0 };
+            print(exc[1]);
+        }
+
     }
 }
